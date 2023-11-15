@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #484848;
+    /* background-color:	#A0A0A0; */
+    color: white;
+    font-family: Mooli;
+}
+
+/* #484848 */
+main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    font-family: Mooli;
+    list-style: none;
+}
+
+.logo {
+    width: 200px;
+
+}
+
+.main ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.moto h1 {
+    color: aqua;
+}
+
+.nav a{
+    text-decoration: none;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+/* .cursor{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color:white;
+    position: absolute;
+    mix-blend-mode: difference;
+    transition: all linear 0.2s;   
+} */
+h2 {
+    margin-left: 10px;
+
+}
+
+.fruits h2 {
+    width: 250px;
+    margin-left: 60px;
+    margin-top: 35px;
+    border: 2px solid cyan;
+}
+
+h3{
+    color: red;
+}
+
+.cardparent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.card {
+    height: 150px;
+    width: 300px;
+    position: relative;
+    margin-top: 70px;
+    margin-right: 40px;
+    transition: 0.3s;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    padding: 30px 50px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.9);
+}
+
+.card:hover {
+    height: 300px;
+    transition: 0.3s;
+}
+.fruits h2{
+    margin-top: 35px;
+}
+
+.fruits .imgbox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* transform: translateY(-85px); */
+}
+
+.fruits .content {
+    padding: 10px 0px;
+    text-align: center;
+    transform: translateY(-350px);
+    height: 250px;
+    /* border-radius: 10px;  */
+}
+
+.fruits .card {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    margin-left: 35px;
+    margin-right: 20px;
+    position: relative;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.9);
+}
+
+.fruits .card:hover {
+    height: 540px;
+    transition: 0.3s;
+}
+
+.imgbox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-85px);
+}
+
+.content {
+    padding: 20px 20px;
+    text-align: center;
+    transform: translateY(-150px);
+    height: 180px;
+    /* opacity: 1; */
+    border-radius: 10px;
+}
+
+.content button {
+    height: 35px;
+    width: 90px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+
+
+.fruits .price{
+    color:rgb(188, 242, 249);
+   margin-right: 5px;
+   margin-top: 15px;
+    /* border: 1px solid cyan; */
+    padding: 10px 15px;
+    display: flex;
+}
+b{
+    font-size: 22px;
+    margin-top: -10px;
+}
+.footer h1{
+    background-color: black;
+    color: white;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.our{
+    margin-right: -10px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+
+.household h2 {
+    border: 2px solid cyan;
+    width: 135px;
+    margin-top: 15px;
+    margin-left: 62px;
+}
+
+.spices .price{
+    color:rgb(188, 242, 249);
+   margin-right: 5px;
+   margin-top: 15px;
+    /* border: 1px solid cyan; */
+    padding: 10px 15px;
+    display: flex;
+}
+
+.spices h2 {
+    border: 2px solid cyan;
+    width: 82px;
+    margin-top: 35px;
+    margin-left: 62px;
+}
+
+.spices .imgbox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* transform: translateY(-85px); */
+}
+
+.spices .content {
+    padding: 10px 0px;
+    text-align: center;
+    transform: translateY(-250px);
+    height: 250px;
+    /* border-radius: 10px;  */
+}
+
+.spices .card {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    margin-left: 35px;
+    margin-right: 20px;
+    position: relative;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.9);
+}
+
+.spices .card:hover {
+    height: 550px;
+    transition: 0.3s;
+}
+
+.spices .our{
+    margin-right: -10px;
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 500px;
+}
+
+.drink .price{
+    color:rgb(188, 242, 249);
+   margin-right: 5px;
+   margin-top: 15px;
+    /* border: 1px solid cyan; */
+    padding: 10px 15px;
+    display: flex;
+}
+.drink h2 {
+    border: 2px solid cyan;
+    width: 82px;
+    margin-top: 35px;
+    margin-left: 62px;
+}
+
+.drink .imgbox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* transform: translateY(-85px); */
+}
+
+.drink .content {
+    padding: 10px 0px;
+    text-align: center;
+    transform: translateY(-250px);
+    height: 250px;
+    /* border-radius: 10px;  */
+}
+
+.drink .card {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    margin-left: 35px;
+    margin-right: 20px;
+    position: relative;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.9);
+}
+
+.drink .card:hover {
+    height: 600px;
+    transition: 0.3s;
+}
+
+.drink .our{
+    margin-right: -10px;
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 500px;
+}
+
+.household h2 {
+    margin-top: 35px;
+}
+
+.household .imgbox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* transform: translateY(-85px); */
+}
+
+.household .content {
+    padding: 10px 0px;
+    text-align: center;
+    transform: translateY(-300px);
+    height: 250px;
+    /* border-radius: 10px;  */
+}
+
+.household .card {
+    width: 100%;
+    height: 370px;
+    border-radius: 10px;
+    margin-left: 35px;
+    margin-right: 20px;
+    position: relative;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.9);
+}
+
+.house .price{
+    color:rgb(188, 242, 249);
+   margin-right: 5px;
+   margin-top: 15px;
+    /* border: 1px solid cyan; */
+    padding: 10px 15px;
+    display: flex;
+}
+
+.household .card:hover {
+    height: 600px;
+    transition: 0.3s;
+}

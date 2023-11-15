@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #484848;
+    /* background-color:	#A0A0A0; */
+    color: white;
+    font-family: 'Mooli', sans-serif;
+}
+
+/* #484848 */
+
+li {
+    font-family: Mooli;
+    list-style: none;
+}
+
+.logo {
+    width: 200px;
+
+}
+.about-content{
+    width: 100%;
+    height: 100vh;
+}
+.about-content h1{
+    font-family: 'Mooli', italic;
+    position: absolute;
+    background: transparent;
+    transform: translate(90%);
+    font-size: 100px;
+}
+
+.main ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.moto h1 {
+    color: aqua;
+}
+
+.nav a{
+    text-decoration: none;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+
+.history h2{
+    position: absolute;
+    left: 650px;
+    bottom: 300px;
+    background: transparent;
+}
+.history p{
+    position: absolute;
+    left: 650px;
+    bottom: 150px;
+    background: transparent;
+}
+
+.img_main img{
+    width: 500px;
+    height: 500px;
+    margin: 20px 30px;
+    border-radius: 20px;
+}
+
+
+/* #img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 4px inset cyan;
+    position: relative;
+    left: 650px;
+    bottom: 150px;
+    background: transparent;
+    perspective: 1000px;
+    transition: transform 5s ease;
+    transform-origin: center center;
+} */
+
+.image-container {
+    perspective: 1000px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    /* overflow: hidden; */
+    left: 650px;
+    bottom: 150px;
+}
+
+.image-container img {
+    width: 150px;
+    border-radius:100%;
+    border: 5px inset white;
+    height: 150px;
+    transition: transform 0.3s ease;
+    transform-origin: center center;
+}
+
+/* Add a class to rotate the image on click */
+.rotate {
+    transform: rotateY(360deg);
+}
+.rotate-back{
+    /* background-color: black; */
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+
+.img_main{
+    width: 500px;
+    height: 500px;
+    margin: 10px 20px;
+    border-radius: 20px;
+}
+
+.fa-instagram{
+    margin-top: 0px;
+    margin-left: 600px;
+    font-size: 70px;
+
+}
+
+.fa-x-twitter{
+    margin-left: 40px;
+    font-size: 60px;
+
+}
+
+.fa-facebook-f{
+    margin-top: 0px;
+    margin-left: 40px;
+    font-size: 60px;
+
+}
+
+.fa-globe-pointer{
+    margin-top: 0px;
+    margin-left: 40px;
+    font-size: 60px;
+}
+
+.flip-card-front img{
+    width:250px;
+    height:150px; 
+    background: transparent;
+}
+  
+  .flip-card {
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    perspective: 1000px;
+    position: absolute;
+    left: 650px;
+    top: 570px;
+    border-radius: 50%;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .footer h1{
+    background-color: black;
+    color: white;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+}
